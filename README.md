@@ -7,18 +7,18 @@ Este repositório contém um site pessoal de portfólio desenvolvido por **Ranil
 
 ## 🔧 Tecnologias Utilizadas
 
-### 1. **HTML5**
+### 1. **HTML**
 - Utilizado como estrutura base das páginas.
 - Uso semântico de tags como `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`, etc.
 - Inclusão de imagens (`<img>`) e links (`<a>`).
 - Botões com eventos interativos.
 
-### 2. **CSS3**
+### 2. **CSS**
 - Arquivo externo: `css/style.css`.
 - Responsável pela formatação visual do site (cores, espaçamento, layout responsivo).
 - Uso de classes como `.menu`, `.intro`, `.interesses`, `.projeto`, entre outras.
 
-### 3. **JavaScript (JS)**
+### 3. **JavaScript**
 - Interação com o usuário através de funções simples, diretamente no arquivo HTML ou em `js/script.js`.
 - Funções utilizadas:
   - `mostrarMensagem()` – exibe um alerta com uma mensagem de boas-vindas.
