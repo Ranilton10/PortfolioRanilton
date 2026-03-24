@@ -1,96 +1,99 @@
-# 🌐 Portfólio e Projeto Sinalize
+# Portfólio e Projeto Sinalize
 
-Este repositório contém um site pessoal de portfólio desenvolvido por **Ranilton Araújo da Silva Raposo Júnior**, estudante de Ciências da Computação. O site é composto por duas páginas principais:
+Este repositório contém um site pessoal de portfólio desenvolvido por mim, Ranilton Araújo da Silva Raposo Júnior, estudante de Ciência da Computação no CESAR School.
 
-- `Portfolio.html`: Apresentação pessoal e profissional.
-- `sinalize.html`: Descrição detalhada do projeto educativo **Sinalize**.
+O site tem como objetivo apresentar algumas informações pessoais, trajetória acadêmica e o projeto Sinalize, desenvolvido durante o primeiro período do curso.
 
-## 🔧 Tecnologias Utilizadas
+## Estrutura do projeto
 
-### 1. **HTML**
-- Utilizado como estrutura base das páginas.
-- Uso semântico de tags como `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`, etc.
-- Inclusão de imagens (`<img>`) e links (`<a>`).
-- Botões com eventos interativos.
+O projeto é composto pelos seguintes arquivos:
 
-### 2. **CSS**
-- Arquivo externo: `css/style.css`.
-- Responsável pela formatação visual do site (cores, espaçamento, layout responsivo).
-- Uso de classes como `.menu`, `.intro`, `.interesses`, `.projeto`, entre outras.
+- index.html  
+Página inicial do site. Apresenta uma visão geral e permite navegar para o projeto Sinalize e para a página "Sobre mim".
 
-### 3. **JavaScript**
-- Interação com o usuário através de funções simples, diretamente no arquivo HTML ou em `js/script.js`.
-- Funções utilizadas:
-  - `mostrarMensagem()` – exibe um alerta com uma mensagem de boas-vindas.
-  - `mostrarDetalhes()` – alterna a visibilidade de uma seção com mais informações sobre o Projeto Sinalize.
+- portfolio.html  
+Página dedicada ao Projeto Sinalize, contendo um resumo e acesso à descrição completa.
 
+- sinalize.html  
+Página com a descrição detalhada do Projeto Sinalize, explicando sua proposta, funcionamento e importância.
 
----
+- sobre.html  
+Página com informações pessoais, objetivos e trajetória acadêmica.
 
-## 📄 Descrição das Páginas
+- assets/css/style.css  
+Arquivo responsável pela estilização do site, incluindo layout, cores, responsividade e efeitos visuais.
 
-### 1. `Portfolio.html`
+- assets/js/script.js  
+Arquivo responsável pela navegação entre páginas utilizando JavaScript.
 
-#### ✅ Conteúdo Apresentado:
-- **Cabeçalho de navegação** com links para:
-  - Início (esta própria página)
-  - Projeto Sinalize (`sinalize.html`)
-- **Apresentação pessoal** com nome e formação.
-- **Seção de interesses profissionais**, destacando:
-  - Programação com Python e JavaScript
-  - Interesse em UI/UX e boas práticas
-  - Procura por estágios
-- **Seção com resumo do Projeto Sinalize**
-  - Descrição básica
-  - Botão para revelar mais detalhes
-  - Imagem ilustrativa do projeto
+- assets/img/sinalizeexemplo.png  
+Imagem ilustrativa do Projeto Sinalize.
 
-#### 🔘 Botões e suas funções:
+## Tecnologias utilizadas
 
-- `Clique aqui`  
-  ➤ Mostra um **alerta** com a mensagem:  
-  _"Obrigado por visitar meu portfólio!"_
+Este projeto foi desenvolvido utilizando:
 
-- `Saiba mais sobre o Sinalize`  
-  ➤ Exibe (ou esconde) um **bloco oculto** com mais informações sobre o projeto, incluindo:
-  - Texto descritivo do objetivo
-  - Explicação sobre a mecânica do jogo
-  - Imagem do jogo
-  - Link para acessar a página detalhada
+- HTML para estruturação das páginas
+- CSS para estilização e layout
+- JavaScript para navegação e interatividade
+- Git para controle de versão
+- GitHub para hospedagem do repositório
 
+## Funcionalidades
 
-### 2. 'Sinalize.html'
+O site possui as seguintes funcionalidades:
 
-# 🧠 Projeto Sinalize
+- Navegação entre páginas 
+- Exibição do projeto Sinalize com imagem ilustrativa
+- Página dedicada com descrição detalhada do projeto
+- Página com informações pessoais e objetivos profissionais
+- Layout responsivo e centralizado
+- Interface moderna com efeitos visuais
 
-Este projeto consiste em uma página web explicativa sobre o **Projeto Sinalize**, uma proposta educativa que une **tecnologia** e **acessibilidade**, estimulando o aprendizado da **Língua Brasileira de Sinais (Libras)** e da **Língua Portuguesa** por meio de um jogo da memória interativo.
+## Sobre o Projeto Sinalize
 
----
+O Sinalize é um projeto desenvolvido no primeiro período do curso de Ciência da Computação no CESAR School.
 
-## 📄 Sobre o Arquivo `sinalize.html`
+A proposta do projeto é utilizar a tecnologia como ferramenta de inclusão, auxiliando no aprendizado da Língua Brasileira de Sinais (Libras) e da Língua Portuguesa.
 
-A página `sinalize.html` é uma página estática que apresenta de forma detalhada o funcionamento do **Projeto Sinalize**.
+O projeto consiste em uma dinâmica inspirada em um jogo da memória, onde o usuário interage com cartas que representam sinais em Libras e palavras em português.
 
-### ✅ Conteúdo da Página
+O funcionamento do jogo é baseado em desafios definidos por um dado:
 
-- **Título principal**: `Projeto Sinalize`
-- **Descrição introdutória**: Explica a proposta do projeto, seu foco em acessibilidade e educação inclusiva.
-- **Explicação das dinâmicas do jogo** com base nos números sorteados em um dado:
-  - **1 ou 2** → A criança precisa associar uma carta em Libras com uma em Português. Se for correto, o LED verde pisca e a criança avança uma casa.
-  - **3** → Mesmo processo, mas com dois pares. Se corretos, a criança avança uma casa.
-  - **4** → A criança deve representar o gesto de uma carta em Libras. Se acertar, avança uma casa.
-  - **5** → Número sortido. Ao cair, a criança avança uma casa sem desafio.
-  - **6** → A criança desafia o oponente com uma carta em português. Se o oponente errar na escolha da carta em Libras, a criança avança, senão o oponente avança.
-- **Imagem** ilustrativa do jogo (`SinalizeExemplo.png`), localizada na pasta `img/`.
-- **Link de navegação** para voltar à página inicial do portfólio (`Portfolio.html`).
+- Ao tirar 1 ou 2, o jogador deve associar cartas em Libras com cartas em português
+- Ao tirar 3, o desafio envolve dois pares de cartas
+- Ao tirar 4, o jogador deve representar um gesto em Libras
+- Ao tirar 5, o jogador avança automaticamente
+- Ao tirar 6, ocorre um desafio entre jogadores
 
----
+O projeto foi pensado com foco em acessibilidade, simplicidade e aprendizado interativo, representando uma aplicação prática de conceitos iniciais de desenvolvimento e lógica de programação.
 
-## 🔘 Botões e Funcionalidades
+Além de seu valor acadêmico, o Sinalize demonstra o potencial da tecnologia como ferramenta de impacto social.
 
-### `Voltar para o portfólio`
-- Este é um link simples (`<a>`), não um botão com script.
-- Ao clicar, redireciona o usuário para a página principal do portfólio (`Portfolio.html`), onde está a apresentação pessoal do autor.
+## Como executar o site para poder acessar o portfólio
 
+1. Clone o repositório:
 
+git clone https://github.com/Ranilton10/PortfolioRanilton.git
+
+2. Acesse a pasta do projeto:
+
+cd PortfolioRanilton
+
+3. Abra o arquivo index.html no navegador ou utilize uma extensão como Live Server no Visual Studio Code.
+
+## Objetivo do projeto
+
+O objetivo deste projeto é:
+
+- Desenvolver habilidades em HTML, CSS e JavaScript
+- Praticar organização de código em projetos web
+- Criar um portfólio pessoal para apresentação profissional
+- Aplicar conceitos de desenvolvimento em um projeto com certo impacto social
+
+## Autor
+
+Desenvolvido por Ranilton Araújo da Silva Raposo Júnior
+
+GitHub: https://github.com/Ranilton10
 
