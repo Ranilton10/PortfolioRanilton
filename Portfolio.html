@@ -10,7 +10,6 @@
   <header>
     <nav>
       <ul class="menu">
-        <li><a href="portfolio.html">Início</a></li>
         <li><a href="sinalize.html">Projeto Sinalize</a></li>
       </ul>
     </nav>
@@ -18,31 +17,30 @@
 
   <main>
     <section class="intro">
-      <h1>Olá, eu me chamo Ranilton Araújo da Silva Raposo Júnior</h1>
-      <p>Sou um aluno do Primeiro Período de Ciências da Computação e com muito interesse em aprender.</p>
+      <h1>Olá, eu me chamo Ranilton Araújo</h1>
+      <p>Aluno de Ciências da Computação com interesse em desenvolvimento de software.</p>
       <button onclick="mostrarMensagem()">Clique aqui</button>
     </section>
 
     <section class="interesses">
       <h2>Meus Interesses Profissionais</h2>
       <p>
-        Tenho interesse em desenvolvimento de software, focando na usabilidade e performance.
-        Gosto de trabalhar com Python e estou sempre em busca de aprender novas tecnologias, como C e JavaScript.
-        Também tenho interesse em UI/UX design e boas práticas de desenvolvimento.
+        Tenho interesse em desenvolvimento de software, com foco em usabilidade e performance.
+        Busco sempre aprender novas tecnologias e boas práticas de programação.
       </p>
     </section>
 
     <section class="projeto">
       <h2>Projeto Sinalize</h2>
       <p>
-        O <strong>Sinalize</strong> é um projeto educativo que visa estimular o aprendizado de
-        <strong>Libras</strong> e da <strong>Língua Portuguesa</strong>.
+        Projeto educativo voltado ao aprendizado de Libras e Português de forma interativa.
       </p>
-      <button onclick="mostrarDetalhes()" class="botao">Saiba mais</button>
+
+      <!-- BOTÃO CORRIGIDO -->
+      <a href="sinalize.html" class="botao">Saiba mais sobre o Sinalize</a>
 
       <div id="detalhes-sinalize" style="display:none; margin-top: 1em;">
-        <img src="img/sinalizeexemplo.png" alt="Imagem do Projeto Sinalize" />
-        <p>Projeto com dinâmica de jogo da memória para aprendizado inclusivo.</p>
+        <img src="img/sinalizeexemplo.png" alt="Imagem do Projeto Sinalize" style="max-width:100%;">
       </div>
     </section>
   </main>
