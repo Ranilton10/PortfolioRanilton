@@ -1,27 +1,25 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+  background-color: #f4f6f8;
   color: #333;
 }
 
 header {
   background-color: #005b96;
-  color: white;
   padding: 1em 0;
 }
 
 .menu {
-  list-style: none;
   display: flex;
   justify-content: center;
-  padding: 0;
+  list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 .menu li {
-  margin: 0 15px;
+  margin: 0 20px;
 }
 
 .menu a {
@@ -31,30 +29,45 @@ header {
 }
 
 main {
-  padding: 2em;
-  max-width: 1000px;
-  margin: auto;
-  background-color: white;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 
-h1, h2 {
-  color: #005b96;
+.card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.imagem-projeto {
+  margin: 25px 0;
+}
+
+.imagem-projeto img {
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 .botao {
   display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
   background-color: #005b96;
   color: white;
-  padding: 0.5em 1em;
   text-decoration: none;
-  border-radius: 5px;
-  margin-top: 1em;
+  border-radius: 6px;
 }
 
 footer {
   text-align: center;
-  padding: 1em;
+  padding: 20px;
   background-color: #ddd;
-  margin-top: 2em;
 }
 

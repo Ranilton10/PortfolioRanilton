@@ -2,54 +2,58 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Meu Portfólio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio - Ranilton</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <ul class="menu">
-        <li><a href="sinalize.html">Projeto Sinalize</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <section class="intro">
-      <h1>Olá, eu me chamo Ranilton Araújo</h1>
-      <p>Aluno de Ciências da Computação com interesse em desenvolvimento de software.</p>
-      <button onclick="mostrarMensagem()">Clique aqui</button>
-    </section>
+<header>
+  <nav>
+    <ul class="menu">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projeto">Projeto</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <section class="interesses">
-      <h2>Meus Interesses Profissionais</h2>
-      <p>
-        Tenho interesse em desenvolvimento de software, com foco em usabilidade e performance.
-        Busco sempre aprender novas tecnologias e boas práticas de programação.
-      </p>
-    </section>
+<main>
 
-    <section class="projeto">
-      <h2>Projeto Sinalize</h2>
-      <p>
-        Projeto educativo voltado ao aprendizado de Libras e Português de forma interativa.
-      </p>
+  <section id="sobre" class="card">
+    <h1>Ranilton Araújo da Silva Raposo Júnior</h1>
 
-      <!-- BOTÃO CORRIGIDO -->
-      <a href="sinalize.html" class="botao">Saiba mais sobre o Sinalize</a>
+    <p>
+      Aluno do Primeiro Período de Ciências da Computação com muito interesse em aprender.
+    </p>
 
-      <div id="detalhes-sinalize" style="display:none; margin-top: 1em;">
-        <img src="img/sinalizeexemplo.png" alt="Imagem do Projeto Sinalize" style="max-width:100%;">
-      </div>
-    </section>
-  </main>
+    <p>
+      Tenho interesse em desenvolvimento de software, focando na usabilidade e performance.
+      Gosto de trabalhar com Python e JavaScript e estou sempre em busca de aprender novas tecnologias.
+      Também tenho interesse em UI/UX design e boas práticas de desenvolvimento.
+    </p>
+  </section>
 
-  <footer>
-    <p>&copy; 2025 Ranilton Araújo. Todos os direitos reservados.</p>
-  </footer>
+  <section id="projeto" class="card">
+    <h2>Projeto Sinalize</h2>
 
-  <script src="js/script.js"></script>
+    <p>
+      O <strong>Sinalize</strong> é um projeto educativo que visa estimular o aprendizado de
+      Libras e da Língua Portuguesa por meio de uma dinâmica lúdica baseada no jogo da memória.
+    </p>
+
+    <div class="imagem-projeto">
+      <img src="img/sinalizeexemplo.png" alt="Projeto Sinalize">
+    </div>
+
+    <a href="sinalize.html" class="botao">Ver detalhes do projeto</a>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 Ranilton Araújo</p>
+</footer>
+
 </body>
 </html>
 
