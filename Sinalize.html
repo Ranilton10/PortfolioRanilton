@@ -1,57 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Projeto Sinalize</title>
-  <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinalize</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
 <header>
-  <nav>
-    <ul class="menu">
-      <li><a href="portfolio.html">Início</a></li>
-    </ul>
-  </nav>
+    <h1>Projeto Sinalize</h1>
+    <button onclick="irPara('portfolio.html')">Voltar</button>
 </header>
 
-<main>
+<main class="container">
 
-  <section class="card">
-    <h1>Projeto Sinalize</h1>
+    <div class="card">
+        <img src="assets/img/sinalizeexemplo.png" alt="Sinalize">
 
-    <p>
-      O Sinalize é um projeto desenvolvido com o objetivo de juntar a tecnologia com a acessibilidade,
-      estimulando o aprendizado sobre a Língua Brasileira de Sinais (Libras) e a Língua Portuguesa.
-    </p>
+        <h2>Sinalize</h2>
+        <p>Projeto voltado para acessibilidade.</p>
 
-    <p>
-      Utilizando o formato de um jogo da memória, a ferramenta oferece uma forma divertida,
-      inclusiva e educacional de aprendizado, sendo voltada principalmente para crianças.
-    </p>
+        <div class="botoes">
+            <button onclick="abrirProjeto('https://SEU-PROJETO.com')">
+                Ver Projeto
+            </button>
 
-    <div class="imagem-projeto">
-      <img src="img/sinalizeexemplo.png" alt="Projeto Sinalize">
+            <button onclick="abrirCodigo('https://github.com/Ranilton10/PortfolioRanilton')">
+                Ver Código
+            </button>
+        </div>
     </div>
-
-    <p>
-      O projeto conta com cartas ilustradas com sinais em Libras e palavras correspondentes,
-      promovendo a associação visual e textual e estimulando o desenvolvimento cognitivo.
-    </p>
-
-    <p>
-      Esse projeto foi desenvolvido do zero com o objetivo de promover inclusão e aprendizado acessível.
-    </p>
-
-  </section>
 
 </main>
 
-<footer>
-  <p>&copy; 2025 Ranilton Araújo</p>
-</footer>
-
+<script src="assets/js/script.js"></script>
 </body>
 </html>
-
