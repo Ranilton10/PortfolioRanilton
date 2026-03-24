@@ -91,9 +91,6 @@ O objetivo deste projeto é:
 - Criar um portfólio pessoal para apresentação profissional
 - Aplicar conceitos de desenvolvimento em um projeto com certo impacto social
 
-## Autor
-
-Desenvolvido por Ranilton Araújo da Silva Raposo Júnior
+## Meu GitHub 
 
 GitHub: https://github.com/Ranilton10
-
